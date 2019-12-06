@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC028E8A238EC59900AF6E9A /* LoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC028E89238EC59900AF6E9A /* LoverTableViewCell.swift */; };
 		DC22F74A238EA16C00C23313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC22F749238EA16C00C23313 /* AppDelegate.swift */; };
 		DC22F74C238EA16C00C23313 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC22F74B238EA16C00C23313 /* SceneDelegate.swift */; };
 		DC22F74E238EA16C00C23313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC22F74D238EA16C00C23313 /* ViewController.swift */; };
 		DC22F751238EA16C00C23313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC22F74F238EA16C00C23313 /* Main.storyboard */; };
 		DC22F753238EA16E00C23313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC22F752238EA16E00C23313 /* Assets.xcassets */; };
 		DC22F756238EA16E00C23313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC22F754238EA16E00C23313 /* LaunchScreen.storyboard */; };
+		DC22F75E238EA27A00C23313 /* MyLover2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC22F75D238EA27A00C23313 /* MyLover2TableViewController.swift */; };
+		DC22F760238EA2C600C23313 /* MyLove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC22F75F238EA2C600C23313 /* MyLove.swift */; };
+		DC22F762238EA95800C23313 /* LoverDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC22F761238EA95800C23313 /* LoverDetailViewController.swift */; };
+		DC53D4C32392408E00C00C99 /* ManTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC53D4C22392408E00C00C99 /* ManTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC028E89238EC59900AF6E9A /* LoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoverTableViewCell.swift; sourceTree = "<group>"; };
 		DC22F746238EA16C00C23313 /* mylover2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mylover2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC22F749238EA16C00C23313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC22F74B238EA16C00C23313 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		DC22F752238EA16E00C23313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC22F755238EA16E00C23313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC22F757238EA16E00C23313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC22F75D238EA27A00C23313 /* MyLover2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLover2TableViewController.swift; sourceTree = "<group>"; };
+		DC22F75F238EA2C600C23313 /* MyLove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLove.swift; sourceTree = "<group>"; };
+		DC22F761238EA95800C23313 /* LoverDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoverDetailViewController.swift; sourceTree = "<group>"; };
+		DC53D4C22392408E00C00C99 /* ManTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				DC22F74B238EA16C00C23313 /* SceneDelegate.swift */,
 				DC22F74D238EA16C00C23313 /* ViewController.swift */,
 				DC22F74F238EA16C00C23313 /* Main.storyboard */,
+				DC028E89238EC59900AF6E9A /* LoverTableViewCell.swift */,
+				DC22F761238EA95800C23313 /* LoverDetailViewController.swift */,
+				DC22F75F238EA2C600C23313 /* MyLove.swift */,
+				DC22F75D238EA27A00C23313 /* MyLover2TableViewController.swift */,
+				DC53D4C22392408E00C00C99 /* ManTableViewCell.swift */,
 				DC22F752238EA16E00C23313 /* Assets.xcassets */,
 				DC22F754238EA16E00C23313 /* LaunchScreen.storyboard */,
 				DC22F757238EA16E00C23313 /* Info.plist */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC53D4C32392408E00C00C99 /* ManTableViewCell.swift in Sources */,
 				DC22F74E238EA16C00C23313 /* ViewController.swift in Sources */,
+				DC22F75E238EA27A00C23313 /* MyLover2TableViewController.swift in Sources */,
+				DC22F760238EA2C600C23313 /* MyLove.swift in Sources */,
 				DC22F74A238EA16C00C23313 /* AppDelegate.swift in Sources */,
+				DC22F762238EA95800C23313 /* LoverDetailViewController.swift in Sources */,
 				DC22F74C238EA16C00C23313 /* SceneDelegate.swift in Sources */,
+				DC028E8A238EC59900AF6E9A /* LoverTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

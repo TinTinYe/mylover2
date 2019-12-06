@@ -10,7 +10,9 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    var mylovers = [MyLover(name: "a", intro: "aa", imageName: "lion"),MyLover(name: "b", intro: "bb", imageName: "rabbit"),MyLover(name: "c", intro: "cc", imageName: "turtle")]
+       var number = 0
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
